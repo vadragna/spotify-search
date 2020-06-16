@@ -1,0 +1,66 @@
+.pics {
+  width: 200px;
+  height: 200px;
+}
+
+.pics:hover {
+  transform: scale(1.05);
+}
+
+#search {
+  display: block;
+}
+
+#results-part {
+  margin: 0;
+  box-sizing: border-box;
+  width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+#input {
+  font-size: 30px;
+}
+
+.select {
+  font-size: 30px;
+}
+
+.more {
+  position: absolute;
+  visibility: hidden;
+}
+
+#submit-button {
+  transition-duration: 0.4s;
+  cursor: pointer;
+  font-size: 30px;
+}
+
+#submit-button:hover {
+  background-color: #4caf50;
+  color: white;
+}
+
+#search {
+  background-color: ivory;
+}
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: sans-serif;
+}
+
+#results-container {
+  align-items: center;
+  justify-content: center;
+  display: flexbox;
+}
+
+.box {
+  align-items: center;
+  justify-content: center;
+  display: flexbox;
+}
